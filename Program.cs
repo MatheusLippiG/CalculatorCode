@@ -7,7 +7,6 @@ namespace CalculatorCode
         static void Main(string[] args)
         {
             Menu();
-
         }
 
         static void Menu()
@@ -35,7 +34,6 @@ namespace CalculatorCode
                 case 6: Exit(); break;
                 default: Menu(); break;
             }
-
         }
         static void Addition()
         {
